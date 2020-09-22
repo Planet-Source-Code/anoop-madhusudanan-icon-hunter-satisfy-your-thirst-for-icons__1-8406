@@ -1,0 +1,269 @@
+[Root]
+Most Recent Package=Icon Hunter 1.0.0
+
+[Package|Icon Hunter|Icon Hunter]
+Icon1=ST6UNST.EXE
+Title1=Uninstall Icon Hunter
+StartIn1=$(AppPath)
+Key1=Icon4
+Icon2="Icon Hunter.exe"
+Title2=Icon Hunter 1.0.0
+StartIn2=$(AppPath)
+Key2=Icon1
+
+
+[Package|Icon Hunter|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\My Projects\GetIcon\GetIcon\Package
+
+[Package|Icon Hunter|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Icon Hunter|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Icon Hunter|Files Found]
+
+[Package|Icon Hunter|Files Released]
+Icon Hunter Help.CHI=
+
+[Package|Icon Hunter|Missing Dependency Information]
+
+[Package|Icon Hunter|Out-of-Date Dependency Information]
+
+[Package|Icon Hunter|Files Added]
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter Help.chm=
+C:\My Documents\My Projects\GetIcon\GetIcon\Search.avi=
+C:\My Documents\My Projects\GetIcon\GetIcon\Readme.txt=
+
+[Package|Icon Hunter|Files Removed]
+
+[Package|Icon Hunter|Files In Project]
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter Help.chm=Yes
+C:\WINDOWS\SYSTEM\hhctrl.ocx=Yes
+C:\WINDOWS\SYSTEM\itss.dll=Yes
+C:\WINDOWS\SYSTEM\itircl.dll=Yes
+C:\WINDOWS\SYSTEM\HH.EXE=Yes
+C:\My Documents\My Projects\GetIcon\GetIcon\Search.avi=Yes
+C:\My Documents\My Projects\GetIcon\GetIcon\Readme.txt=Yes
+
+[Package|Icon Hunter|Configure Registry Files]
+Applicable=No
+
+[Package|Icon Hunter|Configure Remote Servers]
+Applicable=No
+
+[Package|Icon Hunter|Install Locations]
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter Help.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\itss.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\itircl.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\HH.EXE=$(WinSysPath)
+C:\My Documents\My Projects\GetIcon\GetIcon\Search.avi=$(AppPath)
+C:\My Documents\My Projects\GetIcon\GetIcon\Readme.txt=$(AppPath)
+
+[Package|Icon Hunter|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter.exe=No
+C:\My Documents\My Projects\GetIcon\GetIcon\Icon Hunter Help.chm=No
+C:\My Documents\My Projects\GetIcon\GetIcon\Search.avi=No
+C:\My Documents\My Projects\GetIcon\GetIcon\Readme.txt=No
+
+[Package|Icon Hunter|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Icon Hunter 1.0.0
+
+[Package|Icon Hunter|IconGroups]
+Group0=Icon Hunter 1.0.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Icon Hunter|Icon Hunter 1.0.0]
+Icon1="Icon Hunter.exe"
+Title1=Icon Hunter 1.0.0
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=Icon Hunter Readme
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=ST6UNST.EXE
+Title3=Uninstall Icon Hunter
+StartIn3=$(AppPath)
+Key3=Icon4
+
+[Package|Icon Hunter|Package]
+PackageFolder=C:\My Documents\My Projects\GetIcon\GetIcon\Package
+ProjectFolder=C:\My Documents\My Projects\GetIcon\GetIcon
+ServerSideCab=
+File1=C:\My Documents\My Projects\GetIcon\GetIcon\Package\setup.exe
+File2=C:\My Documents\My Projects\GetIcon\GetIcon\Package\Setup.Lst
+File3=C:\My Documents\My Projects\GetIcon\GetIcon\Package\Icon H1.CAB
+File4=C:\My Documents\My Projects\GetIcon\GetIcon\Package\Icon H2.CAB
+File5=C:\My Documents\My Projects\GetIcon\GetIcon\Package\Icon H3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Icon Hunter 1.0.0|Icon Hunter]
+Icon1="Icon Hunter.exe"
+Title1=Icon Hunter 1.0.0
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=ST6UNST.EXE
+Title2=Icon Hunter Unintstaller
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=Readme.txt
+Title3=Icon Hunter Readme
+StartIn3=$(AppPath)
+Key3=Icon4
+
+
+[Package|Icon Hunter 1.0.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\My Projects\Icon Hunter\Package
+
+[Package|Icon Hunter 1.0.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Icon Hunter 1.0.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Icon Hunter 1.0.0|Files Found]
+
+[Package|Icon Hunter 1.0.0|Files Released]
+Icon Hunter Help.CHI=
+
+[Package|Icon Hunter 1.0.0|Missing Dependency Information]
+
+[Package|Icon Hunter 1.0.0|Out-of-Date Dependency Information]
+
+[Package|Icon Hunter 1.0.0|Files Added]
+C:\My Documents\My Projects\Icon Hunter\Search.avi=
+C:\My Documents\My Projects\Icon Hunter\Readme.txt=
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter Help.chm=
+
+[Package|Icon Hunter 1.0.0|Files Removed]
+c:\windows\system\hh.exe=
+c:\windows\system\hhctrl.ocx=
+
+[Package|Icon Hunter 1.0.0|Files In Project]
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Documents\My Projects\Icon Hunter\Search.avi=Yes
+C:\My Documents\My Projects\Icon Hunter\Readme.txt=Yes
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter Help.chm=Yes
+C:\WINDOWS\SYSTEM\hhctrl.ocx=No
+C:\WINDOWS\SYSTEM\itss.dll=Yes
+C:\WINDOWS\SYSTEM\itircl.dll=Yes
+C:\WINDOWS\SYSTEM\HH.EXE=No
+
+[Package|Icon Hunter 1.0.0|Configure Registry Files]
+Applicable=No
+
+[Package|Icon Hunter 1.0.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Icon Hunter 1.0.0|Install Locations]
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\My Projects\Icon Hunter\Search.avi=$(AppPath)
+C:\My Documents\My Projects\Icon Hunter\Readme.txt=$(AppPath)
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter Help.chm=$(AppPath)
+C:\WINDOWS\SYSTEM\itss.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\itircl.dll=$(WinSysPath)
+
+[Package|Icon Hunter 1.0.0|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter.exe=No
+C:\My Documents\My Projects\Icon Hunter\Search.avi=No
+C:\My Documents\My Projects\Icon Hunter\Readme.txt=No
+C:\My Documents\My Projects\Icon Hunter\Icon Hunter Help.chm=No
+
+[Package|Icon Hunter 1.0.0|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Icon Hunter 1.0.0
+
+[Package|Icon Hunter 1.0.0|IconGroups]
+Group0=Icon Hunter 1.0.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Icon Hunter 1.0.0|Icon Hunter 1.0.0]
+Icon1="Icon Hunter.exe"
+Title1=Icon Hunter 1.0.0
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Readme.txt
+Title2=Icon Hunter Readme
+StartIn2=$(AppPath)
+Key2=Icon5
+
+[Package|Icon Hunter 1.0.0|Package]
+PackageFolder=C:\My Documents\My Projects\Icon Hunter\Package
+ProjectFolder=C:\My Documents\My Projects\Icon Hunter
+ServerSideCab=
+File1=C:\My Documents\My Projects\Icon Hunter\Package\setup.exe
+File2=C:\My Documents\My Projects\Icon Hunter\Package\Setup.Lst
+File3=C:\My Documents\My Projects\Icon Hunter\Package\Icon H1.CAB
+File4=C:\My Documents\My Projects\Icon Hunter\Package\Icon H2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
